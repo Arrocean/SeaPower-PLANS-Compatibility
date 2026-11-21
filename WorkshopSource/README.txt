@@ -12,11 +12,16 @@
   Console++ 成功补进一枚弹后，本补丁将该发射筒重新标记为可用。发射进行中会等 095A 完成收尾再复位。
   停用时在模组列表关闭本补丁并重启游戏。
 
-09X 弹药整合
+潜艇弹药整合
   需启用 PLAN Submarines（3594891803）、PLAN Pack（3775128499）和 095A（3815454553）。
-  09X 的默认垂发弹库使用 095A 的长剑-10潜射型（plan_cj-10_sub）。当前 PLAN Submarines 的数量为 8 枚。
-  协同中段制导（3838908720）可选，用于验证能否接收友方雷达航迹更新。
-  建议用新场景检查默认弹库、潜射和数据链。09X 的游戏内测试待完成。
+  09X、095 和 093B 共用 095A 的鹰击-18B、长剑-10潜射型，以及 PLAN Pack 的鱼-9、鱼-10。弹量沿用各艇配置。
+  长剑-10潜射型按目标坐标飞行，惯导漂移为零。启用协同中段制导（3838908720）后，可在有有效友方雷达航迹时接收中段更新。
+  第一阶段已确认 09X 能使用长剑-10潜射型。第二阶段弹库的游戏内实射与数据链验证待完成。
+
+鱼雷更新
+  PLAN Submarines 的 093、093A、039 和 039A 的鱼-6换为鱼-9，094A、039B 和 039C 的鱼-6换为鱼-10电动型。
+  095A 的鱼-6A换为鱼-9，095 增配 2 枚可用于拦截的鱼-12A。
+  鱼-10电动型最高 60 节，发射距离 0.5–32 海里，断线设置沿用 PLAN Pack。
 
 验证
   已在游戏日志中确认 095A 的同一发射筒能重复发射鹰击-20潜射型。
@@ -40,12 +45,22 @@ open Console++ with F8 and turn on Unlimited Ammo. The patch makes a player-owne
 095A VLS cell available after Console++ restores a round and 095A finishes the launch.
 Disable this patch in the mod list and restart to remove it.
 
-Type 09X loadout
+Submarine loadouts
 Enable PLAN Submarines (3594891803), PLAN Pack (3775128499), and Type 095A
-(3815454553). The default Type 09X VLS magazine uses the Type 095A submarine-
-launched CJ-10 (plan_cj-10_sub), eight rounds in the checked version of PLAN
-Submarines. Cooperative Midcourse Guidance (3838908720) is optional for testing
-external radar updates. In-game Type 09X launch and datalink checks are pending.
+(3815454553). Type 09X, Type 095 and Type 093B share the Type 095A YJ-18B
+and submarine-launched CJ-10, plus PLAN Pack's Yu-9 and Yu-10. Quantities come
+from PLAN Submarines. The CJ-10 follows target coordinates with zero simulated
+inertial drift. Cooperative Midcourse Guidance (3838908720) can supply updates
+from valid friendly radar tracks. Type 09X was confirmed to use the submarine-
+launched CJ-10 in the initial integration. In-game testing of the expanded
+loadouts and datalink updates is pending.
+
+Torpedo changes
+Yu-9 replaces Yu-6 on PLAN Submarines' Type 093, Type 093A, Type 039 and
+Type 039A. The electric Yu-10 replaces Yu-6 on Type 094A, Type 039B and
+Type 039C. Type 095A uses Yu-9 in place of Yu-6A, and Type 095 adds two
+Yu-12A torpedoes for interception. The electric Yu-10 reaches 60 knots,
+with a 0.5–32 nautical mile launch envelope and PLAN Pack's wire settings.
 
 The same Type 095A cell has launched the submarine-launched YJ-20 repeatedly in
 game. Look for [Console++ / 095A] Installed in the Keel or BepInEx log. In a new
