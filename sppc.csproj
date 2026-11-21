@@ -1,30 +1,17 @@
-<Project Sdk="Microsoft.NET.Sdk">
+<Project DefaultTargets="Build">
   <PropertyGroup>
-    <TargetFramework>netstandard2.1</TargetFramework>
-    <LangVersion>latest</LangVersion>
-    <Nullable>enable</Nullable>
-    <Version>0.1.0</Version>
-    <SeaPowerDir Condition="'$(SeaPowerDir)' == ''">D:\Steam\steamapps\common\Sea Power</SeaPowerDir>
-    <WorkshopDir Condition="'$(WorkshopDir)' == ''">D:\Steam\steamapps\workshop\content\1286220</WorkshopDir>
-    <GameManagedDir>$(SeaPowerDir)\Sea Power_Data\Managed</GameManagedDir>
-    <PackageDir>$(MSBuildProjectDirectory)\Workshop\sppc</PackageDir>
+    <PackageDir Condition="'$(PackageDir)' == ''">$(MSBuildProjectDirectory)\Workshop\sppc</PackageDir>
   </PropertyGroup>
 
-  <ItemGroup>
-    <!-- Sea Power supplies these assemblies and their transitive references at runtime. -->
-    <Reference Include="AnchorChain" HintPath="$(WorkshopDir)\3380210757\AnchorChain.dll" Private="false" ExternallyResolved="true" />
-    <Reference Include="0Harmony" HintPath="$(SeaPowerDir)\BepInEx\core\0Harmony.dll" Private="false" ExternallyResolved="true" />
-    <Reference Include="Seapower-Scripts" HintPath="$(GameManagedDir)\Seapower-Scripts.dll" Private="false" ExternallyResolved="true" />
-    <Reference Include="UnityEngine.CoreModule" HintPath="$(GameManagedDir)\UnityEngine.CoreModule.dll" Private="false" ExternallyResolved="true" />
-  </ItemGroup>
+  <Target Name="Restore" />
 
-  <Target Name="CopyWorkshopPackage" AfterTargets="Build" Condition="'$(Configuration)' == 'Release'">
+  <Target Name="Build">
     <ItemGroup>
       <WorkshopContent Include="$(MSBuildProjectDirectory)\WorkshopSource\**\*" />
     </ItemGroup>
+    <Delete Files="$(PackageDir)\sppc.dll" />
     <Copy SourceFiles="@(WorkshopContent)"
           DestinationFiles="@(WorkshopContent->'$(PackageDir)\%(RecursiveDir)%(Filename)%(Extension)')"
           SkipUnchangedFiles="true" />
-    <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(PackageDir)" SkipUnchangedFiles="true" />
   </Target>
 </Project>
