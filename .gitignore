@@ -1,0 +1,26 @@
+# .NET build output
+[Bb]in/
+[Oo]bj/
+[Tt]est[Rr]esults/
+*.nupkg
+*.snupkg
+
+# Generated Workshop assembly
+/Workshop/Console095ACompatibility/Console095ACompatibility.dll
+
+# Rider and Visual Studio local settings
+.idea/
+.vs/
+*.sln.iml
+*.rsuser
+*.suo
+*.user
+*.userprefs
+
+# OS metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Output
+Workshop
