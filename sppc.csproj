@@ -7,7 +7,7 @@
     <SeaPowerDir Condition="'$(SeaPowerDir)' == ''">D:\Steam\steamapps\common\Sea Power</SeaPowerDir>
     <WorkshopDir Condition="'$(WorkshopDir)' == ''">D:\Steam\steamapps\workshop\content\1286220</WorkshopDir>
     <GameManagedDir>$(SeaPowerDir)\Sea Power_Data\Managed</GameManagedDir>
-    <PackageDir>$(MSBuildProjectDirectory)\Workshop\Console095ACompatibility</PackageDir>
+    <PackageDir>$(MSBuildProjectDirectory)\Workshop\sppc</PackageDir>
   </PropertyGroup>
 
   <ItemGroup>
@@ -18,7 +18,13 @@
     <Reference Include="UnityEngine.CoreModule" HintPath="$(GameManagedDir)\UnityEngine.CoreModule.dll" Private="false" ExternallyResolved="true" />
   </ItemGroup>
 
-  <Target Name="CopyWorkshopAssembly" AfterTargets="Build" Condition="'$(Configuration)' == 'Release'">
-    <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(PackageDir)" />
+  <Target Name="CopyWorkshopPackage" AfterTargets="Build" Condition="'$(Configuration)' == 'Release'">
+    <ItemGroup>
+      <WorkshopContent Include="$(MSBuildProjectDirectory)\WorkshopSource\**\*" />
+    </ItemGroup>
+    <Copy SourceFiles="@(WorkshopContent)"
+          DestinationFiles="@(WorkshopContent->'$(PackageDir)\%(RecursiveDir)%(Filename)%(Extension)')"
+          SkipUnchangedFiles="true" />
+    <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(PackageDir)" SkipUnchangedFiles="true" />
   </Target>
 </Project>

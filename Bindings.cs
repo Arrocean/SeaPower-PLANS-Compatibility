@@ -3,7 +3,7 @@ using System.Linq;
 using System.Reflection;
 using SeaPower;
 
-namespace Console095ACompatibility;
+namespace sppc;
 
 internal sealed class Bindings
 {

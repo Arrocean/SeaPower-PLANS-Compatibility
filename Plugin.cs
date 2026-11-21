@@ -7,11 +7,11 @@ using HarmonyLib;
 using SeaPower;
 using UnityEngine;
 
-namespace Console095ACompatibility;
+namespace sppc;
 
 [ACDependency(Plugin.ConsoleId, "0.42.0", null)]
 [ACDependency(Plugin.SubmarineId, "1.9.10", null)]
-[ACPlugin(Plugin.Id, "Console++ / Type 095A Compatibility", "0.1.0", null,
+[ACPlugin(Plugin.Id, "SeaPower PLANS Compatibility", "0.1.0", null,
     new[] { Plugin.ConsoleId, Plugin.SubmarineId })]
 public sealed class Plugin : IAnchorChainMod
 {

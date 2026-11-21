@@ -5,8 +5,8 @@
 *.nupkg
 *.snupkg
 
-# Generated Workshop assembly
-/Workshop/Console095ACompatibility/Console095ACompatibility.dll
+# Generated Workshop package
+/Workshop/
 
 # Rider and Visual Studio local settings
 .idea/
@@ -21,6 +21,3 @@
 .DS_Store
 Thumbs.db
 Desktop.ini
-
-# Output
-Workshop
