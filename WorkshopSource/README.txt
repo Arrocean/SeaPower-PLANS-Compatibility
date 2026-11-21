@@ -12,8 +12,8 @@
   停用时在模组列表关闭本补丁并重启游戏。
 
 095A 垂发补弹
-  默认、反舰和重型反舰配载保留原有装填量，鹰击-20潜射型和鹰击-18B 各新增 2 枚备弹。
-  两种导弹的发射筒分别连接各自的弹仓，由游戏原生机制补装。Console++ 为可选项。
+  四种配载均保留原有装填量。鹰击-20潜射型、鹰击-18B 和长剑-10潜射型在搭载它们的配载中各新增 2 枚备弹。
+  发射筒连接对应弹仓，由游戏原生机制补装。Console++ 为可选项。
 
 潜艇弹药整合
   09X、095 和 093B 共用 095A 的鹰击-18B、长剑-10潜射型，以及 PLAN Pack 的鱼-9、鱼-10。弹量沿用各艇配置。
@@ -26,7 +26,7 @@
   鱼-10电动型最高 60 节，发射距离 0.5–32 海里，断线设置沿用 PLAN Pack。
 
 验证
-  在新任务中使用 095A 默认配载，关闭 Console++ 的无限弹药。两种导弹都应有 6 枚预装、2 枚备弹。
+  在新任务中使用 095A 默认配载，关闭 Console++ 的无限弹药。鹰击-20潜射型和鹰击-18B 各预装 6 枚，长剑-10潜射型预装 12 枚。三种导弹各有 2 枚备弹。
   打完预装弹后，确认发射筒补装并继续发射。使用 Console++ 时，可另测开启无限弹药后的连续发射。
 
 工坊内容
@@ -45,9 +45,9 @@ manual install, close the game and replace the old sppc folder to remove sppc.dl
 Disable this patch in the mod list and restart to remove it.
 
 Type 095A VLS reloads
-The Default, AntiShip, and AntiShipHeavy loadouts retain their original ready rounds
-and carry two more submarine-launched YJ-20s and two more YJ-18Bs. Each group of launch
-cells draws from its dedicated magazine through the game's native reload system.
+All four loadouts retain their original ready rounds and carry two reserve rounds
+for each missile type already carried: submarine-launched YJ-20, YJ-18B, and
+submarine-launched CJ-10. The game reloads the cells from their dedicated magazines.
 Console++ is optional.
 
 Submarine loadouts
@@ -67,8 +67,9 @@ Yu-12A torpedoes for interception. The electric Yu-10 reaches 60 knots,
 with a 0.5–32 nautical mile launch envelope and PLAN Pack's wire settings.
 
 In a new mission, use the Type 095A's Default loadout with Unlimited Ammo off.
-Each missile type should have six ready rounds and two reserve rounds. Fire the
-ready rounds and check that the launchers reload and can fire the reserves.
+The YJ-20 and YJ-18B should each have six ready rounds, and the CJ-10 should
+have twelve. Each type has two reserves. Fire the ready rounds and check that
+the launchers reload and can fire the reserves.
 If you use Console++, also test sustained fire with Unlimited Ammo on.
 
 Use this directory as Workshop content and preview.jpg as its preview image.

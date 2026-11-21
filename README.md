@@ -4,7 +4,7 @@
 
 This *Sea Power* mod integrates submarine loadouts from PLAN Pack, Type 095A, and PLAN Submarines.
 
-The Type 095A's Default, AntiShip, and AntiShipHeavy loadouts retain their original ready rounds and carry two additional submarine-launched YJ-20s and two additional YJ-18Bs. Each group of launch cells draws from a magazine dedicated to its missile type. The game handles reloading through its native magazine system. Console++ is optional.
+The Type 095A retains its original ready rounds in all four loadouts. Each loadout carries two reserve rounds for each missile type it already carries, covering the submarine-launched YJ-20, YJ-18B, and submarine-launched CJ-10. Each group of launch cells draws from a magazine dedicated to its missile type. The game handles reloading through its native magazine system. Console++ is optional.
 
 The default magazines on PLAN Submarines' Type 09X, Type 095 and Type 093B use the Type 095A YJ-18B and submarine-launched CJ-10, plus the PLAN Pack Yu-9 and Yu-10. Each boat takes its ammunition quantities from PLAN Submarines. The CJ-10 follows target coordinates with zero simulated inertial drift and can receive midcourse datalink updates.
 
@@ -38,7 +38,7 @@ To install a local build, close the game and copy the entire generated `Workshop
 
 ## In-game verification
 
-In a new mission, use the Type 095A's Default loadout with Console++ Unlimited Ammo off. Each of the two missile types should have six ready rounds and two reserve rounds. Fire the ready rounds and verify that the native reload makes the remaining rounds available. If you use Console++, also test sustained fire with Unlimited Ammo on.
+In a new mission, use the Type 095A's Default loadout with Console++ Unlimited Ammo off. The YJ-20 and YJ-18B should each have six ready rounds, and the CJ-10 should have twelve. Each type should also have two reserve rounds. Fire the ready rounds and verify that the native reload makes the remaining rounds available. If you use Console++, also test sustained fire with Unlimited Ammo on.
 
 The Type 09X loadout was confirmed in-game to include the submarine-launched CJ-10 during the first integration. For the expanded loadouts, start a new mission. Check for eight submarine-launched CJ-10s on Type 09X and six each on Type 095 and Type 093B. Test coordinate flight and datalink updates separately using an eligible tracked target for the latter. In-game checks of the expanded loadouts are pending.
 
