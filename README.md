@@ -8,7 +8,9 @@ The Type 095A retains its original ready rounds in all four loadouts. Each loado
 
 The default magazines on PLAN Submarines' Type 09X, Type 095 and Type 093B use the Type 095A YJ-18B and submarine-launched CJ-10, plus the PLAN Pack Yu-9 and Yu-10. Each boat takes its ammunition quantities from PLAN Submarines. The CJ-10 follows target coordinates with zero simulated inertial drift and can receive midcourse datalink updates.
 
-PLAN Submarines' Type 093, Type 093A, Type 039 and Type 039A use Yu-9 in place of Yu-6. Type 094A, Type 039B and Type 039C use the electric Yu-10 in place of Yu-6. Type 095A carries Yu-9 in place of Yu-6A, and Type 095 gets two Yu-12A torpedoes for interception. The shared electric Yu-10 can reach 60 knots, with a 0.5–32 nautical mile launch envelope and PLAN Pack's wire settings.
+PLAN Submarines' Type 093, Type 093A, Type 039 and Type 039A use Yu-9 in place of Yu-6. Type 094A, Type 096, Type 039B and Type 039C use the electric Yu-10 in place of Yu-6. Type 095A carries Yu-9 in place of Yu-6A, and Type 095 gets two Yu-12A torpedoes for interception. The shared electric Yu-10 can reach 60 knots, with a 0.5–32 nautical mile launch envelope and PLAN Pack's wire settings.
+
+The 2026 Type 055 carries eight Yu-12As in each side's torpedo magazine. The Z-20F carries two air-dropped Yu-12As in its ASW loadout, and the Yu-15 delivers one of the same air-dropped variant.
 
 ## Requirements
 

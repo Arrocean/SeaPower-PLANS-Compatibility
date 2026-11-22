@@ -21,9 +21,10 @@
   第一阶段已确认 09X 能使用长剑-10潜射型。第二阶段弹库的游戏内实射与数据链验证待完成。
 
 鱼雷更新
-  PLAN Submarines 的 093、093A、039 和 039A 的鱼-6换为鱼-9，094A、039B 和 039C 的鱼-6换为鱼-10电动型。
+  PLAN Submarines 的 093、093A、039 和 039A 的鱼-6换为鱼-9，094A、096、039B 和 039C 的鱼-6换为鱼-10电动型。
   095A 的鱼-6A换为鱼-9，095 增配 2 枚可用于拦截的鱼-12A。
   鱼-10电动型最高 60 节，发射距离 0.5–32 海里，断线设置沿用 PLAN Pack。
+  055（2026 型）两舷各装 8 枚鱼-12A。直-20F 反潜配载挂载 2 枚鱼-12A空投型，鱼-15也投送同款空投鱼雷。
 
 验证
   在新任务中使用 095A 默认配载，关闭 Console++ 的无限弹药。鹰击-20潜射型和鹰击-18B 各预装 6 枚，长剑-10潜射型预装 12 枚。三种导弹各有 2 枚备弹。
@@ -61,10 +62,12 @@ loadouts and datalink updates is pending.
 
 Torpedo changes
 Yu-9 replaces Yu-6 on PLAN Submarines' Type 093, Type 093A, Type 039 and
-Type 039A. The electric Yu-10 replaces Yu-6 on Type 094A, Type 039B and
-Type 039C. Type 095A uses Yu-9 in place of Yu-6A, and Type 095 adds two
+Type 039A. The electric Yu-10 replaces Yu-6 on Type 094A, Type 096, Type 039B
+and Type 039C. Type 095A uses Yu-9 in place of Yu-6A, and Type 095 adds two
 Yu-12A torpedoes for interception. The electric Yu-10 reaches 60 knots,
 with a 0.5–32 nautical mile launch envelope and PLAN Pack's wire settings.
+The 2026 Type 055 carries eight Yu-12As per side. The Z-20F carries two
+air-dropped Yu-12As in its ASW loadout, and the Yu-15 delivers one of the same variant.
 
 In a new mission, use the Type 095A's Default loadout with Unlimited Ammo off.
 The YJ-20 and YJ-18B should each have six ready rounds, and the CJ-10 should
