@@ -10,7 +10,7 @@ The default magazines on PLAN Submarines' Type 09X, Type 095 and Type 093B use t
 
 PLAN Submarines' Type 093, Type 093A, Type 039 and Type 039A use Yu-9 in place of Yu-6. Type 094A, Type 096, Type 039B and Type 039C use the electric Yu-10 in place of Yu-6. Type 095A carries Yu-9 in place of Yu-6A, and Type 095 gets two Yu-12A torpedoes for interception. The shared electric Yu-10 can reach 60 knots, with a 0.5–32 nautical mile launch envelope and PLAN Pack's wire settings.
 
-The 2026 Type 055 carries eight Yu-12As in each side's torpedo magazine. The Z-20F carries two air-dropped Yu-12As in its ASW loadout, and the Yu-15 delivers one of the same air-dropped variant.
+The 2026 Type 055 carries eight Yu-12As in each side's torpedo magazine. The Z-20F carries two air-dropped Yu-12As in its ASW loadout, and the Yu-15 delivers one of the same air-dropped variant. The Yu-15 can also designate a detected enemy torpedo as its launch target within its existing engagement limits.
 
 ## Requirements
 

@@ -25,6 +25,7 @@
   095A 的鱼-6A换为鱼-9，095 增配 2 枚可用于拦截的鱼-12A。
   鱼-10电动型最高 60 节，发射距离 0.5–32 海里，断线设置沿用 PLAN Pack。
   055（2026 型）两舷各装 8 枚鱼-12A。直-20F 反潜配载挂载 2 枚鱼-12A空投型，鱼-15也投送同款空投鱼雷。
+  鱼-15 本体也可将已探测、符合发射条件的敌方鱼雷选为目标。
 
 验证
   在新任务中使用 095A 默认配载，关闭 Console++ 的无限弹药。鹰击-20潜射型和鹰击-18B 各预装 6 枚，长剑-10潜射型预装 12 枚。三种导弹各有 2 枚备弹。
@@ -68,6 +69,7 @@ Yu-12A torpedoes for interception. The electric Yu-10 reaches 60 knots,
 with a 0.5–32 nautical mile launch envelope and PLAN Pack's wire settings.
 The 2026 Type 055 carries eight Yu-12As per side. The Z-20F carries two
 air-dropped Yu-12As in its ASW loadout, and the Yu-15 delivers one of the same variant.
+The Yu-15 can also designate detected enemy torpedoes within its existing engagement limits.
 
 In a new mission, use the Type 095A's Default loadout with Unlimited Ammo off.
 The YJ-20 and YJ-18B should each have six ready rounds, and the CJ-10 should
